@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Bloom</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Travel Bloom</h1>
+    <ul>
+      <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+      <li><a href="./about.html" id="about">About Us</a></li>
+      <li><a href="./contact.html" id="contact">Contact Us</a></li>
+      <li><input type="text" id="searchInput" placeholder="Search for destinations..."></li>
+      <li><button id="searchButton">Search</button></li>
+      <li><button id="clearButton">Clear</button></li>
+    </ul>
+  </nav>
+
+  <div id="homeSection" style="background-image: url('https://img.freepik.com/free-photo/flat-lay-composition-with-beach-accessories_23-2148228632.jpg'); background-size: cover; background-position: center; height: 100vh;">
+    <div class="intro">
+      <h2>Welcome to Travel Bloom</h2>
+      <p>Your one-stop platform to discover amazing travel destinations around the world.</p>
+      <button onclick="location.href='#';">Book Now</button>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div id="content"></div>
+  <script src="./travel_recommendation.js"></script>
+</body>
+</html>

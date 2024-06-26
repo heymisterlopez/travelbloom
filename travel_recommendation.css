@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li input, nav ul li button {
+  padding: 0.5em;
+}
+
+#homeSection {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+#homeSection .intro {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2em;
+}
+
+.result {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.result img {
+  max-width: 100%;
+  height: auto;
+}
